@@ -12,7 +12,7 @@
 // Height Cache Solution based on post by Kai Burghardt on Stack Overflow
 // http://stackoverflow.com/a/26371697/40444
 ///////////////////////////////////////////////////////////////////////////
-@interface UITableViewController (IGTableViewEstimatedHeightCache)
+@interface UIViewController (IGTableViewEstimatedHeightCache)
 
 - (void) ehc_setEstimatedCellHeightToCache:(NSIndexPath *) indexPath height:(CGFloat) height;
 

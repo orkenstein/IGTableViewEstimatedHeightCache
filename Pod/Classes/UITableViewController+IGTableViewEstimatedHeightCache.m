@@ -9,7 +9,7 @@
 #import "UITableViewController+IGTableViewEstimatedHeightCache.h"
 #import <objc/runtime.h>
 
-@implementation UITableViewController (IGTableViewEstimatedHeightCache)
+@implementation UIViewController (IGTableViewEstimatedHeightCache)
 
 #pragma mark - Properties
 
